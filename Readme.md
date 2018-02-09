@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Имя Фамилия](https://up.htmlacademy.ru/adaptive/10/user).
-* Наставник: `Неизвестно`.
+* Наставник: `Имя Фамилия`.
 
 ---
 
