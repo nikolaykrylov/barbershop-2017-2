@@ -7,6 +7,65 @@
   <title>form</title>
 </head>
 <body>
-
+  <header class="page-header">
+    <img class="page-header logo" src="#" width="30" height="80">
+    <nav class="page-header menu">
+      <ul class="menu__list">
+        <li class="menu__list item"><a href="#">Каталог товаров</a></li>
+        <li class="menu__list item"><a href="form.html">Вязание на заказ</a></li>
+        <li class="menu__list item"><a href="#">Поиск по сайту</a></li>
+        <li class="menu__list item"><a href="#">Корзина: пока пуста</a></li>
+      </ul>
+    </nav>
+    <h1 class="page-header__title">Вязание на заказ</h1>
+  </header>
+  <main class="form-main">
+    <p class="form-main__description">
+      Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
+    </p>
+    <form action="#" method="post" class="inquiry-form">
+      <h2 class="inquiry-form__header">Тип</h2>
+      <input type="radio" id="accessoire" name="type" checked>
+      <label for="accessoire">Аксессуар для интерьера</label>
+      <input type="radio" id="toy" name="type">
+      <label for="toy">Детская игрушка</label>
+      <h2 class="inquiry-form__header">Цвет</h2>
+      <input type="checkbox" id="white" name="color" checked>
+      <label for="white">Белый</label>
+      <input type="checkbox" id="grey" name="color" checked>
+      <label for="grey">Серый</label>
+      <input type="checkbox" id="tiffany" name="color">
+      <label for="tiffany">"Тиффани"</label>
+      <input type="checkbox" id="black" name="color">
+      <label for="black">Черный</label>
+      <input type="checkbox" id="pink" name="color">
+      <label for="pink">Розовый</label>
+      <input type="checkbox" id="orange" name="color">
+      <label for="orange">Оранжевый</label>
+      <h2 class="inquiry-form__header">ФИО</h2>
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" placeholder="Введите ваше имя*">
+      <label for="surname">Фамилия:</label>
+      <input type="text" id="surname" name="surname" placeholder="Укажите фамилию*">
+      <label for="patronymic">Отчество:</label>
+      <input type="text" id="patronymic" name="patronymic" placeholder="Отчество, если желаете">
+      <h2 class="inquiry-form__header">Тел</h2>
+      <input type="tel" placeholder="+7 ХХХ ХХ ХХ*">
+      <h2 class="inquiry-form__header">e-mail</h2>
+      <input type="email" placeholder="Ваш Email">
+      <h2 class="inquiry-form__header">Доп</h2>
+      <input type="text" placeholder="Опишите все ваши пожелания к заказу">
+      <small class=inquiry-form__note>*Поля обязательные для заполнения</small>
+      <button class="inquiry-form__button button">Отправить заказ</button>
+    </form>
+  </main>
+  <footer class="page-footer">
+    <ul class="page-footer__social-buttons">
+      <li class="page-footer__social-buttons--inst"><a href=#>inst</a></li>
+      <li class="page-footer__social-buttons--fb"><a href=#>fb</a></li>
+      <li class="page-footer__social-buttons--tw"><a href=#>tw</a></li>
+    </ul>
+    <b class="page-footer__text">Разработано</b>
+  </footer>
 </body>
 </html>
